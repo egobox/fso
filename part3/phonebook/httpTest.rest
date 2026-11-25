@@ -4,6 +4,12 @@ Content-Type: application/json
 {"name": "New Person3", "number": "123-4567890"}
 ###
 
+POST https://fso-hj0c.onrender.com/api/persons
+Content-Type: application/json
+
+{"name": "New Person3", "number": "123-4567890"}
+###
+
 GET http://localhost:3001/api/persons
 ###
 
